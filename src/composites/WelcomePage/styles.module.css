@@ -63,6 +63,10 @@
     background-repeat: no-repeat;
   }
 
+  .separatorContainer {
+    margin-top: 0px;
+  }
+
   .textName {
     font-size: 50px;
   }
