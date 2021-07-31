@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
+    url('../../assets/header_img.jpeg');
+  background-repeat: no-repeat;
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image is fixed in the viewport so that it doesn't move when
+  the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+  on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+  while the background image is loading */
+  background-color: #412222;
+}
+
+.separatorContainer {
+  margin-top: 10px;
+}
+
+.textName {
+  color: #ffffff;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 120px;
+  text-align: center;
+}
+
+.invitationText {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
+      url('../../assets/header_img_mobile.png');
+    background-size: 100vw 650px;
+    background-repeat: no-repeat;
+  }
+
+  .separatorContainer {
+    margin-top: 0px;
+  }
+
+  .textName {
+    font-size: 50px;
+  }
+
+  .invitationText {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .buttonContainer {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .textName {
+    font-size: 80px;
+  }
+
+  .invitationText {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .buttonContainer {
+    margin-top: 40px;
+  }
+}
