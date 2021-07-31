@@ -1,11 +1,28 @@
-import React from 'react'
-import { WelcomePage, BrideGroom } from '../../composites'
+import React, { Suspense, lazy } from 'react'
+import Loader from 'react-loader-spinner'
+
+const WelcomePage = lazy(() =>
+  import('../../composites/WelcomePage/WelcomePage')
+)
+const BrideGroom = lazy(() => import('../../composites/BrideGroom/BrideGroom'))
 
 const WeddingInvitation = () => {
+  const renderSpinner = () => (
+    <Loader
+      type="Hearts"
+      color="#00BFFF"
+      height={100}
+      width={100}
+      timeout={3000} //3 secs
+    />
+  )
+
   return (
     <div>
-      <WelcomePage />
-      <BrideGroom />
+      <Suspense fallback={() => renderSpinner()}>
+        <WelcomePage />
+        <BrideGroom />
+      </Suspense>
     </div>
   )
 }
