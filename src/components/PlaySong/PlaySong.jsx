@@ -29,9 +29,9 @@ const PlaySong = ({ isInvitationOpen }) => {
       onClick={() => setIsPlaying(!isPlaying)}
     >
       {isPlaying ? (
-        <VolumeOff style={{ fontSize: 20 }} />
-      ) : (
         <VolumeUp style={{ fontSize: 20 }} />
+      ) : (
+        <VolumeOff style={{ fontSize: 20 }} />
       )}
     </button>
   )
