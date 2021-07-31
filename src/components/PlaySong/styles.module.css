@@ -1,0 +1,10 @@
+.playSongButton {
+  position: fixed;
+  top: 10px;
+  right: 5px;
+  padding: 5px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color: #412222;
+}

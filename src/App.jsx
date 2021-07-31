@@ -1,11 +1,21 @@
-import { BrideGroom, WelcomePage } from './composites'
+import { useState } from 'react'
+import { FrontPageInvitation, WeddingInvitation } from './screens'
+import { PlaySong } from './components'
 
 function App() {
+  const [isInvitationOpen, setInvitationOpen] = useState(false)
+
   return (
-    <div>
-      <WelcomePage />
-      <BrideGroom />
-    </div>
+    <>
+      {isInvitationOpen ? (
+        <>
+          <PlaySong isInvitationOpen={isInvitationOpen} />
+          <WeddingInvitation />
+        </>
+      ) : (
+        <FrontPageInvitation setInvitationOpen={setInvitationOpen} />
+      )}
+    </>
   )
 }
 
