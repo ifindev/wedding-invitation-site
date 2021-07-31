@@ -1,9 +1,10 @@
-import { WelcomePage } from './composites'
+import { BrideGroom, WelcomePage } from './composites'
 
 function App() {
   return (
     <div>
       <WelcomePage />
+      <BrideGroom />
     </div>
   )
 }
