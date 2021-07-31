@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
+    url('../../assets/header_img.jpeg');
+  background-repeat: no-repeat;
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image is fixed in the viewport so that it doesn't move when
+  the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+  on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+  while the background image is loading */
+  background-color: #412222;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
+      url('../../assets/header_img_mobile.png');
+    background-size: 100vw 600px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container {
+    background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
+      url('../../assets/header_img_mobile.png');
+    background-size: 100vw 550px;
+    background-repeat: no-repeat;
+  }
+}

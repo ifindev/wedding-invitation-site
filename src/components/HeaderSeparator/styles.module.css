@@ -1,0 +1,18 @@
+.separatorContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.separatorLine {
+  background-color: #ffffff;
+  width: 300px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.separatorIcon {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 50px;
+}
