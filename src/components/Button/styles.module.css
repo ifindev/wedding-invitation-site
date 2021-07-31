@@ -1,6 +1,17 @@
 .button {
-  padding: 10px 20px;
+  padding: 20px 30px;
+  cursor: pointer;
   color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
   background-color: #412222;
   border-radius: 5px;
+  border: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }

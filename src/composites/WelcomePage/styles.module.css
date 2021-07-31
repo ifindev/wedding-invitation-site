@@ -1,4 +1,9 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   height: 100vh;
   background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
     url('../../assets/header_img.jpeg');
@@ -16,11 +21,83 @@
   background-color: #412222;
 }
 
+.separatorContainer {
+  margin-top: 10px;
+}
+
+.textName {
+  color: #ffffff;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 120px;
+  text-align: center;
+}
+
+.invitationText {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.invitationDate {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: Playfair Display;
+  font-size: 44px;
+  line-height: 59px;
+  text-align: center;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 480px) {
   .container {
     background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
       url('../../assets/header_img_mobile.png');
     background-size: 100vw 650px;
     background-repeat: no-repeat;
+  }
+
+  .textName {
+    font-size: 50px;
+  }
+
+  .invitationText {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .invitationDate {
+    margin-top: 3px;
+    font-size: 18px;
+  }
+
+  .buttonContainer {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .textName {
+    font-size: 80px;
+  }
+
+  .invitationText {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .invitationDate {
+    font-size: 28px;
+  }
+
+  .buttonContainer {
+    margin-top: 40px;
   }
 }
