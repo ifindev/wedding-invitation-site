@@ -1,0 +1,29 @@
+.container {
+  padding: 20px 0;
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  color: #412222;
+  /* background-color: blanchedalmond; */
+}
+
+.youThere {
+  font-family: Poppins;
+  font-size: 24px;
+  text-align: center;
+}
+
+.joinUs {
+  font-family: Playfair Display;
+  font-size: 48px;
+  text-align: center;
+}
+
+.eventContainer {
+  width: 50%;
+  margin: 32px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: coral; */
+}
