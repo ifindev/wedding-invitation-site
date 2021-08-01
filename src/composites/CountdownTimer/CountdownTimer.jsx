@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import styles from './styles.module.css'
 
 const CountdownTimer = () => {
-  const countDownDate = new Date('Nov 27, 2021 08:00:00').getTime()
   const [days, setDays] = useState(0)
   const [hours, setHours] = useState(0)
   const [minutes, setMinutes] = useState(0)
@@ -10,6 +9,8 @@ const CountdownTimer = () => {
 
   useEffect(() => {
     var x = setInterval(function () {
+      const countDownDate = new Date('Nov 27, 2021 08:00:00').getTime()
+
       // Get today's date and time
       var now = new Date().getTime()
 
