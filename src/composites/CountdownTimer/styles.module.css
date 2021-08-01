@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.container {
+  height: 50vh;
+  margin: 40px 0;
+  padding: 60px 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
+    url('../../assets/countdown_bg_11zon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #412222;
+
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+.separator {
+  width: 80%;
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.countdownDate {
+  font-size: 80px;
+}
+
+.countdownContainer {
+  width: 100%;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdownTimeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.countdownValue {
+  font-size: 60px;
+}
+
+.countdownText {
+  font-size: 24px;
+}
+
+.slash {
+  margin: 0 40px;
+  font-size: 80px;
+}
