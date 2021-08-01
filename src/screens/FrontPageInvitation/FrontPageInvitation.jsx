@@ -16,7 +16,10 @@ const FrontPageInvitation = ({ setInvitationOpen }) => {
         day
       </p>
       <div className={styles.buttonContainer}>
-        <Button text="Buka Undangan" onClick={() => setInvitationOpen(true)} />
+        <Button
+          text="Open Invitation"
+          onClick={() => setInvitationOpen(true)}
+        />
       </div>
     </div>
   )

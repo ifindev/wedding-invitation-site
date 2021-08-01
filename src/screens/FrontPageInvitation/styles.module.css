@@ -48,9 +48,10 @@
 
 @media only screen and (max-width: 480px) {
   .container {
+    /* height: 731px; */
     background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
       url('../../assets/header_img_mobile.png');
-    background-size: 100vw 650px;
+    background-size: 100vw 750px;
     background-repeat: no-repeat;
   }
 
