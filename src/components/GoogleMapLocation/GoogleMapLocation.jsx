@@ -8,7 +8,7 @@ const GoogleMapLocation = () => {
       <MapContainer
         className={styles.mapLocation}
         center={[-6.188749993366775, 106.87747132606388]}
-        zoom={30}
+        zoom={17}
         scrollWheelZoom={true}
       >
         <TileLayer
