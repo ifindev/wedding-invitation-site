@@ -5,6 +5,9 @@ const WelcomePage = lazy(() =>
   import('../../composites/WelcomePage/WelcomePage')
 )
 const BrideGroom = lazy(() => import('../../composites/BrideGroom/BrideGroom'))
+const EventDetails = lazy(() =>
+  import('../../composites/EventDetails/EventDetails')
+)
 
 const WeddingInvitation = () => {
   const renderSpinner = () => (
@@ -22,6 +25,7 @@ const WeddingInvitation = () => {
       <Suspense fallback={() => renderSpinner()}>
         <WelcomePage />
         <BrideGroom />
+        <EventDetails />
       </Suspense>
     </div>
   )
