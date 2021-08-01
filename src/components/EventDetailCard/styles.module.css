@@ -38,3 +38,16 @@
     margin: 20px 0;
   }
 }
+
+@media only screen and (max-width: 481px) {
+  .container {
+    padding: 20px;
+    margin: 20px 0;
+    width: 280px;
+  }
+
+  .detailText,
+  .addressText {
+    font-size: 12px;
+  }
+}

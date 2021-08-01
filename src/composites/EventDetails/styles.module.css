@@ -28,9 +28,32 @@
   /* background-color: coral; */
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .eventContainer {
     display: flex;
     flex-direction: column;
+  }
+
+  .youThere {
+    font-size: 20px;
+  }
+
+  .joinUs {
+    margin-top: 10px;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .container {
+    margin-top: 10px;
+  }
+
+  .youThere {
+    font-size: 18px;
+  }
+
+  .joinUs {
+    font-size: 28px;
   }
 }
