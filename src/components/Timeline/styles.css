@@ -1,7 +1,6 @@
 .timeline-container {
   padding: 80px 0px;
   background-color: #5b3d2c;
-  position: relative;
   background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
     url('../../assets/timeline-bg.jpg');
   background-repeat: no-repeat;

@@ -1,13 +1,23 @@
 .container {
-  padding: 20px 0;
-  margin-top: 80px;
+  min-height: 1000px;
+  padding: 100px 0;
   width: 100%;
   height: auto;
   color: #412222;
-  /* background-color: blanchedalmond; */
+  background: url('../../assets/bg-venue.png');
+  background-repeat: no-repeat;
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image is fixed in the viewport so that it doesn't move when
+  the content's height is greater than the image's height */
+  /* background-attachment: fixed; */
+  /* This is what makes the background image rescale based
+  on the container's size */
+  background-size: cover;
 }
 
 .youThere {
+  margin-top: 250px;
   font-family: Poppins;
   font-size: 24px;
   text-align: center;
@@ -22,6 +32,7 @@
 .eventContainer {
   width: 50%;
   margin: 32px auto;
+  margin-top: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,9 +48,18 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    min-height: 500px;
+    padding: 50px 0;
+  }
+
   .eventContainer {
     display: flex;
     flex-direction: column;
+  }
+
+  .eventContainer {
+    margin-top: 100px;
   }
 
   .youThere {

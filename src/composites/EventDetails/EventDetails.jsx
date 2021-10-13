@@ -25,23 +25,25 @@ const EventDetails = () => {
   ]
 
   return (
-    <div className={styles.container}>
-      <div>
-        <p className={styles.youThere}>WE WANT YOU THERE!</p>
-        <p className={styles.joinUs}>Join our happy moment</p>
-        <div className={styles.eventContainer}>
-          {eventDetails.map((item, idx) => {
-            return (
-              <EventDetailCard
-                eventName={item.name}
-                eventDate={item.date}
-                eventTime={item.time}
-                eventVenue={item.venue}
-                venueAddress={item.address}
-                key={idx}
-              />
-            )
-          })}
+    <div>
+      <div className={styles.container}>
+        <div>
+          <p className={styles.youThere}>WE WANT YOU THERE!</p>
+          <p className={styles.joinUs}>Join our happy moment</p>
+          <div className={styles.eventContainer}>
+            {eventDetails.map((item, idx) => {
+              return (
+                <EventDetailCard
+                  eventName={item.name}
+                  eventDate={item.date}
+                  eventTime={item.time}
+                  eventVenue={item.venue}
+                  venueAddress={item.address}
+                  key={idx}
+                />
+              )
+            })}
+          </div>
         </div>
       </div>
       <div className={styles.location}>

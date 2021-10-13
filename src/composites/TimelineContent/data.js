@@ -41,8 +41,9 @@ export const data = [
         kuliah juga dan langsung diterima kerja dan jaraknya hanya sekitar 30
         menit ke rumah Fitria lohh!! Semesta mendukung banget ga sih ini?
         <br /> <br />
-        Ditambah lagi, sekarang malah kantornya Fitria & Arifin sama-sama deket
-        GI. Hmm bisa-bisa makan siang bareng terus deh ini...
+        Eh Alhamdulillah, sekarang malah kantornya Fitria & Arifin sama-sama
+        deket Grand Indonesia (GI). Hmm bisa-bisa makan siang bareng terus deh
+        ini...
       </p>
     ),
   },
@@ -70,12 +71,12 @@ export const data = [
         Arifin bersama keluarga besar datang untuk melakukan lamaran secara
         resmi ke Fitria dan berbalas pantun nih!
         <br /> <br />
-        Arifin : “Beli kentang dirumah Ani Pulangnya membeli paku Wahai Fitria
-        Andaryani Maukah kau menerima lamaranku?”
+        Arifin : <br /> “Beli kentang dirumah Ani <br /> Pulangnya membeli paku{' '}
+        <br /> Wahai Fitria Andaryani <br /> Maukah kau menerima lamaranku?”
         <br />
         <br />
-        Fitria : “Pergi wisata alam lihat dolphin Pulangnya makan lasagna Hai
-        Muhammad Arifin Insya Allah saya terima lamarannya”
+        Fitria : “Pergi wisata alam lihat dolphin <br /> Pulangnya makan lasagna{' '}
+        <br /> Hai Muhammad Arifin <br /> Insya Allah saya terima lamarannya”
         <br />
         <br />
         Chakeup gak gais pantunnya? Hahaha
