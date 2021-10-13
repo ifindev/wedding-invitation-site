@@ -46,6 +46,11 @@
   text-align: center;
 }
 
+.invitationTo {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+}
+
 .buttonContainer {
   margin-top: 50px;
 }
@@ -81,6 +86,11 @@
     line-height: 30px;
   }
 
+  .invitationTo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+  }
+
   .buttonContainer {
     margin-top: 30px;
   }
@@ -94,6 +104,11 @@
   .invitationText {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .invitationTo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
   }
 
   .buttonContainer {

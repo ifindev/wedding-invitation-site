@@ -4,8 +4,8 @@ import { ProfileCard } from '../../components'
 
 // Assets
 import styles from './styles.module.css'
-import bride from '../../assets/bride.png'
-import groom from '../../assets/groom.png'
+import bride from '../../assets/2_bride_img.png'
+import groom from '../../assets/3_groom.png'
 
 const BrideGroom = () => {
   return (

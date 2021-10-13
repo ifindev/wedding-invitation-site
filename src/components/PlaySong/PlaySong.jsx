@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { VolumeUp, VolumeOff } from '@material-ui/icons'
 
-import audioSrc from '../../assets/backsong_compressed.mp3'
+import audioSrc from '../../assets/backsound-invitation.mp3'
 import styles from './styles.module.css'
 
 const PlaySong = ({ isInvitationOpen }) => {

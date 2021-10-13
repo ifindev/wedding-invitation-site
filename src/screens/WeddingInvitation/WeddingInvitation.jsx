@@ -4,6 +4,7 @@ import {
   BrideGroom,
   EventDetails,
   CountdownTimer,
+  TimelineContent,
 } from '../../composites'
 
 const WeddingInvitation = () => {
@@ -11,6 +12,7 @@ const WeddingInvitation = () => {
     <div>
       <WelcomePage />
       <BrideGroom />
+      <TimelineContent />
       <EventDetails />
       <CountdownTimer />
     </div>
