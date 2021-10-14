@@ -32,30 +32,26 @@ const CountdownTimer = () => {
     }, 1000)
   }, [])
 
+  const renderCountDownValues = (data, text) => {
+    return (
+      <div className={styles.countdownTimeContainer}>
+        <p className={styles.countdownValue}>{data} </p>
+        <p className={styles.countdownText}>{text}</p>
+      </div>
+    )
+  }
+
   return (
     <div className={styles.container}>
       <p className={styles.countdownDate}>27 November 2021</p>
-      {/* <div className={styles.separator} /> */}
       <div className={styles.countdownContainer}>
-        <div className={styles.countdownTimeContainer}>
-          <p className={styles.countdownValue}>{days} </p>
-          <p className={styles.countdownText}>Days</p>
-        </div>
+        {renderCountDownValues(days, 'Days')}
         <p className={styles.slash}>/</p>
-        <div className={styles.countdownTimeContainer}>
-          <p className={styles.countdownValue}> {hours} </p>
-          <p className={styles.countdownText}>Hours</p>
-        </div>
+        {renderCountDownValues(hours, 'Hours')}
         <p className={styles.slash}>/</p>
-        <div className={styles.countdownTimeContainer}>
-          <p className={styles.countdownValue}>{minutes}</p>
-          <p className={styles.countdownText}>Minutes</p>
-        </div>
+        {renderCountDownValues(minutes, 'Minutes')}
         <p className={styles.slash}>/</p>
-        <div className={styles.countdownTimeContainer}>
-          <p className={styles.countdownValue}>{seconds}</p>
-          <p className={styles.countdownText}>Seconds</p>
-        </div>
+        {renderCountDownValues(seconds, 'Seconds')}
       </div>
     </div>
   )
