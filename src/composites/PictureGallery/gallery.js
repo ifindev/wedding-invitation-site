@@ -35,6 +35,6 @@ export const gallery = [
         img3: gl11,
       },
     ],
-    mobile: [gl1, gl2, gl3, gl4, gl5, gl6, gl7, gl8, gl9, gl10, gl11],
+    mobile: [gl1, gl2, gl4, gl3, gl5, gl6, gl8, gl7, gl9, gl10, gl11],
   },
 ]
