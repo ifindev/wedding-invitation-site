@@ -1,0 +1,56 @@
+.gallery-container {
+  margin-top: 250px;
+}
+
+.gallery-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-header span {
+  font-size: 32px;
+  font-family: Plafair Display;
+  color: #614637;
+}
+
+.gallery-header img {
+  position: absolute;
+  width: 350px;
+  z-index: -1;
+}
+
+.gall-item-container {
+  margin-top: 150px;
+}
+
+.item-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .gallery-container {
+    margin-top: 120px;
+  }
+
+  .gall-item-container {
+    margin-top: 80px;
+  }
+
+  .gallery-header span {
+    font-size: 24px;
+  }
+
+  .gallery-header img {
+    width: 250px;
+  }
+
+  .item-mobile {
+    display: block;
+  }
+
+  .item-desktop {
+    display: none;
+  }
+}

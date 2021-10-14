@@ -61,7 +61,6 @@
     height: 80vh;
     background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
       url('../../assets/header_img_mobile.png');
-    background-size: 100vw 100%;
     background-repeat: no-repeat;
   }
 

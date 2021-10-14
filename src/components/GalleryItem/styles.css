@@ -1,0 +1,31 @@
+.gallery-item-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.desktop-gall {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mobile-gall {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .gallery-item-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .desktop-gall {
+    display: none;
+  }
+
+  .mobile-gall {
+    display: block;
+  }
+}
