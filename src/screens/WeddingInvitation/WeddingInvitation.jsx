@@ -5,6 +5,7 @@ import {
   EventDetails,
   CountdownTimer,
   TimelineContent,
+  HealthProtocols,
 } from '../../composites'
 
 const WeddingInvitation = () => {
@@ -15,6 +16,7 @@ const WeddingInvitation = () => {
       <TimelineContent />
       <EventDetails />
       <CountdownTimer />
+      <HealthProtocols />
     </div>
   )
 }

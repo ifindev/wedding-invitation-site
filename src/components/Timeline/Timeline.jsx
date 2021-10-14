@@ -7,11 +7,11 @@ const Timeline = ({ data }) => {
       <div className="opening-timeline">
         <h2>Sepenggal Kisah Arifin &amp; Fitria</h2>
       </div>
-      <div class="timeline">
+      <div className="timeline">
         {data.map((x) => {
           return (
-            <div class={`container ${x.position}`}>
-              <div class="content">
+            <div className={`container ${x.position}`}>
+              <div className="content">
                 <h2 style={{ color: '#684D3D', marginBottom: '20px' }}>
                   {x.period}
                 </h2>
