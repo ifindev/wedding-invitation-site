@@ -1,5 +1,7 @@
 # Wedding Invitation Website for Fitria & Arifin
 
+P.S: See the live website on https://arifin-fitria.netlify.app/?to=Github+Friends
+
 ## So, what is this?
 
 So good news, I am marrying my girlfriend on November 2021th! Yeayy.. Now, since covid and travel restrictions are still around in Indonesia, me and my gf decided to create a responsive online wedding invitation for our own wedding. The main reason was so that we can still invite friends, families, and peers despite all the restriction and hopefully getting a lot of prayer for the marriage. So, after working on it for several months and after battling the procrastionation, the laziness, and also the sheer amount of works I have to do on my daily basis, it is finally done!
@@ -24,5 +26,3 @@ Of course! While working on this project, I found that:
 
 Anyway, all and all it was really fun working on this!
 Thanks for stopping by :).
-
-P.S: See the live website on https://arifin-fitria.netlify.app/?to=Github+Friends
