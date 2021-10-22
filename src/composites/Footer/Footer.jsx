@@ -15,6 +15,7 @@ const Footer = () => {
         <a
           href="https://github.com/ifindev/wedding-invitation-site"
           target="_blank"
+          rel="noreferrer"
         >
           <GitHub className="icon" />
         </a>
