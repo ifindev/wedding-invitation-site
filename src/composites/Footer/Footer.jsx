@@ -1,5 +1,5 @@
 import React from 'react'
-import { Favorite, GitHub } from '@material-ui/icons'
+import { FaHeart, FaGithub } from 'react-icons/fa'
 
 import './styles.css'
 
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <p>
-        Designed &amp; Made with <Favorite className="icon" /> <br />
+        Designed &amp; Made with <FaHeart className="icon" /> <br />
         by Muhammad Arifin &amp; Fitria Andaryani
       </p>
       <p>
@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <GitHub className="icon" />
+          <FaGithub className="icon" />
         </a>
       </p>
     </div>
