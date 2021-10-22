@@ -9,11 +9,24 @@
   border-radius: 10px;
 }
 
-.closing-container p {
-  margin: 80px 0;
+.closing-surah {
+  margin: 60px 0;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 100px;
+}
+
+.cl-last-container {
+  margin: 72px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 40px;
+}
+
+.cl-last-container p {
+  font-family: Playfair Display;
+  font-size: 72px;
+  line-height: 120px;
 }
 
 @media screen and (max-width: 600px) {
@@ -21,9 +34,19 @@
     width: 85%;
   }
 
-  .closing-container p {
+  .closing-surah {
     margin: 30px 0;
     font-size: 18px;
     line-height: 50px;
+  }
+
+  .cl-last-container {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  .cl-last-container p {
+    font-size: 24px;
+    line-height: 30px;
   }
 }

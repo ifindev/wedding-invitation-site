@@ -1,11 +1,12 @@
 import React from 'react'
 import './styles.css'
+import closingImg from '../../assets/closing-img.png'
 
 const ClosingPage = () => {
   return (
     <div className="closing-container">
       <hr />
-      <p>
+      <p className="closing-surah">
         "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
         pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan
         merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
@@ -14,6 +15,15 @@ const ClosingPage = () => {
         21)
       </p>
       <hr />
+      <div className="cl-last-container">
+        <p>
+          Bismillah~ <br /> <br />
+          Mohon doanya yaa semua...
+        </p>
+        <div>
+          <img src={closingImg} alt="Closing Image" />
+        </div>
+      </div>
     </div>
   )
 }
