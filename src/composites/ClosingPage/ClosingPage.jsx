@@ -21,7 +21,7 @@ const ClosingPage = () => {
           Mohon doanya yaa semua...
         </p>
         <div>
-          <img src={closingImg} alt="Closing Image" />
+          <img src={closingImg} alt="Closing Prewed" />
         </div>
       </div>
     </div>
