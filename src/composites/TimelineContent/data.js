@@ -25,9 +25,10 @@ export const data = [
     img: tl2,
     content: (
       <p>
-        Pada tanggal 7 Juli 2019, akhirnya Arifin bela-belain terbang dari Jogja
-        ke Jakarta untuk bertemu dengan Fitria untuk pertama kalinya nih. <br />{' '}
-        <br /> Kira-kira dimana yah ketemuannya? Hihihi
+        Pada tanggal 7 Juli 2019, akhirnya Arifin punya kesempatan untuk terbang
+        dari Jogja ke Jakarta dan bertemu dengan Fitria untuk pertama kalinya
+        nih. <br /> <br /> Kira-kira dimana yah ketemuannya? Hihihi. Rahasia
+        dongg
       </p>
     ),
   },
