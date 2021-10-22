@@ -7,6 +7,7 @@ import {
   TimelineContent,
   HealthProtocols,
   PictureGallery,
+  ClosingPage,
 } from '../../composites'
 
 const WeddingInvitation = () => {
@@ -19,6 +20,7 @@ const WeddingInvitation = () => {
       <CountdownTimer />
       <HealthProtocols />
       <PictureGallery />
+      <ClosingPage />
     </div>
   )
 }
