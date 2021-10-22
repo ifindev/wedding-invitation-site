@@ -1,6 +1,9 @@
 # Wedding Invitation Website for Fitria & Arifin
 
-P.S: See the live website on https://arifin-fitria.netlify.app/?to=Github+Friends
+P.S:
+
+- See the live website on https://arifin-fitria.netlify.app/?to=Github+Friends
+- And the design on https://www.figma.com/file/fDIeq2LT0oXxmyWhIidcJe/Web-Undangan-Nikah?node-id=0%3A1
 
 ## So, what is this?
 

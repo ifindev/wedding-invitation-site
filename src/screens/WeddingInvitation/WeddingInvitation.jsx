@@ -8,6 +8,7 @@ import {
   HealthProtocols,
   PictureGallery,
   ClosingPage,
+  Footer,
 } from '../../composites'
 
 const WeddingInvitation = () => {
@@ -21,6 +22,7 @@ const WeddingInvitation = () => {
       <HealthProtocols />
       <PictureGallery />
       <ClosingPage />
+      <Footer />
     </div>
   )
 }

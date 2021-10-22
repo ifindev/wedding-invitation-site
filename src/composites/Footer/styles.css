@@ -1,0 +1,38 @@
+.footer-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  background-color: #5b3d2c;
+}
+
+.footer-container p {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.footer-container hr {
+  margin: 5px 0;
+  width: 400px;
+}
+
+.icon {
+  margin: 0 5px;
+  font-size: 12px;
+  color: #fff !important;
+}
+
+.footer-container br {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container br {
+    display: block;
+  }
+}
