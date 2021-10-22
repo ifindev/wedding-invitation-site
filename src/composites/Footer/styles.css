@@ -22,8 +22,10 @@
 }
 
 .icon {
-  margin: 0 5px;
+  margin: 0 3px;
   font-size: 12px;
+  width: 10px;
+  height: 10px;
   color: #fff !important;
 }
 
