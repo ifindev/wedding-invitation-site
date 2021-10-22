@@ -35,4 +35,8 @@
   .footer-container br {
     display: block;
   }
+
+  .icon {
+    font-size: 8px;
+  }
 }
