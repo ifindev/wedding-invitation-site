@@ -10,14 +10,14 @@ const EventDetails = () => {
       name: 'Akad Nikah',
       date: 'Saturday, 27th November 2021',
       time: '08:00 - 09:00',
-      venue: 'Masjid Salman Al-Farisi',
+      venue: 'Aula Masjid Salman Al-Farisi',
       address:
         'Jl. Komp. Bulog Jl. H. Ten Raya No.147, RT.14/RW.7, Kayu Putih,  Kec. Pulo Gadung, Kota Jakarta Timur',
     },
     {
       name: 'Resepsi Nikah',
       date: 'Saturday, 27th November 2021',
-      time: '10:00 - 13:00',
+      time: '11:00 - 13:00',
       venue: 'Aula Masjid Salman Al-Farisi',
       address:
         'Jl. Komp. Bulog Jl. H. Ten Raya No.147, RT.14/RW.7, Kayu Putih,  Kec. Pulo Gadung, Kota Jakarta Timur',
