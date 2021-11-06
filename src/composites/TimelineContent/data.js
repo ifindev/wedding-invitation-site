@@ -11,11 +11,10 @@ export const data = [
     img: tl1,
     content: (
       <p>
-        Hari pertama lebaran Idul Fitri 2019, Arifin diberikan kontak Fitria
-        oleh tantenya (Bu Ratu/Mba Mimi) yang juga teman kerjanya Fitria. Hayo
-        siapa kira-kira yang kaget? 😆 <br /> <br /> Yang satu anak Teknik
-        Fisika UGM, yang satu anak Matematika UI. Nah lohh, ntar anaknya jadi
-        apa ya? 😆{' '}
+        Hari pertama lebaran Idul Fitri 2019, Arifin dikenalkan ke Fitria oleh
+        orang yang kami sayangi. Hayo siapa yaa? <br /> <br /> Yang satu anak
+        Teknik Fisika UGM, yang satu anak Matematika UI. Nah lohh, ntar anaknya
+        jadi apa ya? 😆{' '}
       </p>
     ),
   },

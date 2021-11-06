@@ -7,13 +7,13 @@ export const data = [
     title: 'The Bride',
     name: 'Fitria Andaryani, S.Si., FSAI',
     description: 'Putri Ketiga',
-    parent: 'Bapak Suhartono &amp; Ibu Komariyah',
+    parent: 'Bapak Suhartono & Ibu Komariyah',
   },
   {
     img: groom,
     title: 'The Groom',
     name: 'Muhammad Arifin, S.T.',
     description: 'Putra Pertama',
-    parent: 'Alm. Bapak Dr. Ing. R. Riesdam Effendi &amp; Ibu Tjut Mutiah',
+    parent: 'Alm. Bapak Dr. Ing. R. Riesdam Effendi & Ibu Tjut Mutiah',
   },
 ]
