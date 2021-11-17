@@ -13,7 +13,7 @@ export const data = [
     img: groom,
     title: 'The Groom',
     name: 'Muhammad Arifin, S.T.',
-    description: 'Putra Pertama',
+    description: 'Putra Tunggal',
     parent: 'Alm. Bapak Dr. Ing. R. Riesdam Effendi & Ibu Tjut Mutiah',
   },
 ]
